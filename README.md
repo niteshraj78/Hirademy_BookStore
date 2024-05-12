@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+Web Application: BookStore
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This web application is built to understand and test APIs provided by softwium.com/fake-api/. It includes both frontend pages and backend API calls to fetch and display book information.
 
-## Available Scripts
+Problem Statement:
 
-In the project directory, you can run:
+The task involves familiarizing with the APIs provided at softwium.com/fake-api/ and implementing a frontend application with the following UI pages:
 
-### `npm start`
+Books Page: Displays links to all books fetched dynamically from the "GET /Books" API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Book Details Page: Displays detailed information about a selected book fetched from the "GET /Books/id" API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Frontend Application Requirements
+Books Page (http://localhost:<port>/books):
+Display links to all books, with each book name as a clickable link.
+Load books dynamically into the UI by making an API call to the "GET /Books" API.
+Book Details Page (http://localhost:<port>/books/id):
+Display the following details of the selected book by making a call to the "GET /Books/id" API:
+Title
+ISBN
+PageCount
+Authors
 
-### `npm test`
+Create a link from the Books Page to navigate to the Book Details Page for each book.
+Implementation Details
+Frontend Framework: React.js
+Routing: React Router
+Styling: CSS with some use of Bootstrap for responsiveness
+API Calls: Axios library for making HTTP requests
+State Management: React hooks (useState, useEffect) for managing component state
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Getting Started
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clone the repository: git clone https://github.com/niteshraj78/Hirademy_BookStore.git
+Navigate to the project directory: cd  bookverse
+Install dependencies: npm install
+Start the development server: npm start
+Open your browser and go to http://localhost:<port>
