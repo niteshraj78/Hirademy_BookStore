@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Hirademy_BookStore/static/css/main.d75e86df.css",
-    "main.js": "/Hirademy_BookStore/static/js/main.006ed6a1.js",
-    "static/js/453.f043f622.chunk.js": "/Hirademy_BookStore/static/js/453.f043f622.chunk.js",
+    "main.js": "/Hirademy_BookStore/static/js/main.676cfbe0.js",
+    "static/js/453.aad734fa.chunk.js": "/Hirademy_BookStore/static/js/453.aad734fa.chunk.js",
     "index.html": "/Hirademy_BookStore/index.html",
     "main.d75e86df.css.map": "/Hirademy_BookStore/static/css/main.d75e86df.css.map",
-    "main.006ed6a1.js.map": "/Hirademy_BookStore/static/js/main.006ed6a1.js.map",
-    "453.f043f622.chunk.js.map": "/Hirademy_BookStore/static/js/453.f043f622.chunk.js.map"
+    "main.676cfbe0.js.map": "/Hirademy_BookStore/static/js/main.676cfbe0.js.map",
+    "453.aad734fa.chunk.js.map": "/Hirademy_BookStore/static/js/453.aad734fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d75e86df.css",
-    "static/js/main.006ed6a1.js"
+    "static/js/main.676cfbe0.js"
   ]
 }
