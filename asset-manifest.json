@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Hirademy_BookStore/static/css/main.d75e86df.css",
+    "main.js": "/Hirademy_BookStore/static/js/main.006ed6a1.js",
+    "static/js/453.f043f622.chunk.js": "/Hirademy_BookStore/static/js/453.f043f622.chunk.js",
+    "index.html": "/Hirademy_BookStore/index.html",
+    "main.d75e86df.css.map": "/Hirademy_BookStore/static/css/main.d75e86df.css.map",
+    "main.006ed6a1.js.map": "/Hirademy_BookStore/static/js/main.006ed6a1.js.map",
+    "453.f043f622.chunk.js.map": "/Hirademy_BookStore/static/js/453.f043f622.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d75e86df.css",
+    "static/js/main.006ed6a1.js"
+  ]
+}
